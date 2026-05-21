@@ -91,18 +91,7 @@ export default function Login() {
           <h1 className="font-display font-bold text-3xl text-white mb-2">Sign in</h1>
           <p className="text-slate-400 mb-8">Enter your credentials to access your workspace</p>
 
-          {/* Demo credentials */}
-          <div className="mb-6 p-4 rounded-xl bg-slate-800/50 border border-slate-700">
-            <p className="text-xs font-medium text-slate-400 mb-3">Quick demo access:</p>
-            <div className="flex gap-2">
-              <button onClick={() => fillDemo('admin')} className="flex-1 text-xs py-2 px-3 rounded-lg bg-violet-600/20 text-violet-400 border border-violet-500/30 hover:bg-violet-600/30 transition-colors">
-                Admin Demo
-              </button>
-              <button onClick={() => fillDemo('member')} className="flex-1 text-xs py-2 px-3 rounded-lg bg-slate-700/50 text-slate-300 border border-slate-600 hover:bg-slate-700 transition-colors">
-                Member Demo
-              </button>
-            </div>
-          </div>
+          
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
